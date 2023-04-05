@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Lista dolazaka/odlazaka</title>
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Lista dolazaka/odlazaka</h1>
+      <form>
+        <label for="imePrezime">Ime i prezime:</label>
+        <input type="text" id="imePrezime" required>
+        <label for="razlogDolaska">Razlog dolaska:</label>
+        <input type="text" id="razlogDolaska" required>
+        <button type="button" onclick="dodaj()">Dodaj</button>
+        <button type="button" onclick="ocisti()">Očisti</button>
+        <div id="listaDiv">
+          <h2>Lista:</h2>
+          <ul id="lista"></ul>
+        </div>
+        <div id="preuzmiDiv">
+          <h2>Preuzmi:</h2>
+          <button type="button" onclick="preuzmi('txt')">Preuzmi kao txt</button>
+          <button type="button" onclick="preuzmi('pdf')">Preuzmi kao pdf</button>
+        </div>
+      </form>
+    </div>
+    <script src="/js/script.js"></script>
+  </body>
+</html>
