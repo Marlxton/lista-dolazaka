@@ -1,0 +1,58 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  
+  h1 {
+    margin-top: 0;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type="text"] {
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  #listaDiv, #preuzmiDiv {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  #lista {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #lista li {
+    margin-bottom: 10px;
+  }
+  
+  #preuzmiDiv button {
+    margin-right: 20px;
+  }
